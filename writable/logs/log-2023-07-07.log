@@ -1,0 +1,710 @@
+CRITICAL - 2023-07-07 00:16:15 --> Invalid file: "claim_form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('claim_form.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('claim_form', [], true)
+ 3 APPPATH\Controllers\ClaimController.php(12): view('claim_form')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClaimController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClaimController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 00:16:30 --> Invalid file: "claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('claim', [], true)
+ 3 APPPATH\Controllers\ClaimController.php(12): view('claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClaimController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClaimController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 00:16:30 --> Invalid file: "claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('claim', [], true)
+ 3 APPPATH\Controllers\ClaimController.php(12): view('claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClaimController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClaimController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 00:17:59 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\ClaimController.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\ClaimController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClaimController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClaimController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ClaimController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 00:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 00:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 00:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 00:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 00:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 01:04:34 --> Invalid file: "dashboard/temuan/claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/temuan/claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/claim', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/temuan/claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:05:31 --> Invalid file: "dashboard/temuan/claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/temuan/claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/claim', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/temuan/claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 01:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 01:09:26 --> Invalid file: "dashboard/beranda/laporan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/beranda/laporan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda/laporan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/beranda/laporan')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:09:53 --> Invalid file: "dashboard/beranda/claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/beranda/claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda/claim', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/beranda/claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:09:59 --> Invalid file: "dashboard/beranda/laporan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/beranda/laporan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda/laporan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/beranda/laporan')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:10:06 --> Invalid file: "dashboard/temuan/claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/temuan/claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/claim', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/temuan/claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:10:07 --> Invalid file: "dashboard/temuan/claim.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/temuan/claim.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/claim', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(133): view('dashboard/temuan/claim')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 01:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 01:10:44 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(133): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->claim()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 01:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 01:13:09 --> Class "App\Controllers\ClaimModel" not found
+in APPPATH\Controllers\TemuanController.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->storeClaim()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:13:27 --> Undefined variable $claimModel
+in APPPATH\Controllers\TemuanController.php on line 150.
+ 1 APPPATH\Controllers\TemuanController.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $claimModel', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\TemuanController.php', 150)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->storeClaim()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 01:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 01:16:27 --> Undefined variable $temuans
+in APPPATH\Views\home.php on line 122.
+ 1 APPPATH\Views\home.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuans', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\home.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 01:19:29 --> Undefined variable $kehilangan
+in APPPATH\Views\home.php on line 163.
+ 1 APPPATH\Views\home.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kehilangan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\home.php', 163)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 01:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 01:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 06:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 06:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 06:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 06:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 10:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-07 10:52:49 --> mysqli_sql_exception: Table 'fp.laporan' doesn't exist in D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Dimas\KULIAH\CODING\PWL\FinalProject\app\Controllers\LaporanTController.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\CodeIgniter.php(934): App\Controllers\LaporanTController->index()
+#8 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanTController))
+#9 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Dimas\KULIAH\CODING\PWL\FinalProject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH...')
+#12 {main}
+CRITICAL - 2023-07-07 10:52:49 --> Table 'fp.laporan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `laporan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `laporan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `laporan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `laporan`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\LaporanTController.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanTController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanTController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:02:12 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 40.
+ 1 APPPATH\Views\dashboard\temuan\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:04:29 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 40.
+ 1 APPPATH\Views\dashboard\temuan\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:04:29 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 40.
+ 1 APPPATH\Views\dashboard\temuan\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:04:30 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 40.
+ 1 APPPATH\Views\dashboard\temuan\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:04:30 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 40.
+ 1 APPPATH\Views\dashboard\temuan\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:07:18 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 40.
+ 1 APPPATH\Views\dashboard\temuan\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:08:52 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:08:57 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:09:55 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:10:00 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 11:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 11:10:36 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:22 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:22 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:23 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:23 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:23 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:23 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:23 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:24 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:24 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:24 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:11:44 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 APPPATH\Views\dashboard\temuan\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\temuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 5 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:12:45 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:12:45 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:12:58 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:12:58 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:12:59 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:13:41 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:13:41 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:13:41 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:13:42 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:13:42 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:14:28 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:14:28 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:14:29 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:14:29 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\temuan\index.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 4 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:16:15 --> Allowed fields must be specified for model: "App\Models\TemuanModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\TemuanModel')
+ 2 SYSTEMPATH\BaseModel.php(919): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\TemuanController.php(118): CodeIgniter\Model->update('13', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->update('13')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 11:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 11:17:31 --> Undefined variable $no_hp
+in APPPATH\Views\dashboard\beranda.php on line 41.
+ 1 APPPATH\Views\dashboard\beranda.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no_hp', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(36): view('dashboard/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:17:41 --> Undefined array key "no_hp"
+in APPPATH\Views\dashboard\beranda.php on line 41.
+ 1 APPPATH\Views\dashboard\beranda.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(36): view('dashboard/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:17:42 --> Undefined array key "no_hp"
+in APPPATH\Views\dashboard\beranda.php on line 41.
+ 1 APPPATH\Views\dashboard\beranda.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(36): view('dashboard/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-07 11:17:42 --> Undefined array key "no_hp"
+in APPPATH\Views\dashboard\beranda.php on line 41.
+ 1 APPPATH\Views\dashboard\beranda.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_hp"', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(36): view('dashboard/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-07 11:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

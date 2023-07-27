@@ -1,0 +1,803 @@
+CRITICAL - 2023-07-05 05:36:19 --> Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\FP\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 05:36:24 --> Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\FP\\FinalProject\\public\\index.php')
+ERROR - 2023-07-05 05:41:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'fp', 3306, '', 0)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Dimas\KULIAH\CODING\FP\FinalProject\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-05 05:42:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'fp', 3306, '', 0)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Dimas\KULIAH\CODING\FP\FinalProject\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-05 05:42:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'fp', 3306, '', 0)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Dimas\KULIAH\CODING\FP\FinalProject\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2023-07-05 05:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-05 05:49:57 --> mysqli_sql_exception: Table 'fp.users' doesn't exist in D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\Dimas\KULIAH\CODING\FP\FinalProject\app\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+#7 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CodeIgniter.php(934): App\Controllers\LoginController->process()
+#8 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Dimas\KULIAH\CODING\FP\FinalProject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Dimas\KULIAH\CODING\FP\FinalProject\system\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH...')
+#12 {main}
+CRITICAL - 2023-07-05 05:49:57 --> Table 'fp.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'coba\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'coba\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'coba\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\LoginController.php(22): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LoginController->process()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\FP\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 05:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 05:55:09 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\LoginController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-07-05 05:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 05:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 06:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 06:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 06:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 06:10:25 --> include(navbar): Failed to open stream: No such file or directory
+in APPPATH\Views\home.php on line 24.
+ 1 APPPATH\Views\home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(navbar): Failed to open stream: No such file or directory', 'D:\\Dimas\\KULIAH\\CODING\\FP\\FinalProject\\app\\Views\\home.php', 24)
+ 2 APPPATH\Views\home.php(24): include()
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\FP\\FinalProject\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\FP\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 06:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 09:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 09:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 09:46:26 --> Invalid file: "temuan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan/index', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:47:01 --> Invalid file: "temuan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan/index', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:48:48 --> Invalid file: "temuan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan/index', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:33 --> Invalid file: "temuan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:34 --> Invalid file: "temuan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:34 --> Invalid file: "temuan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:34 --> Invalid file: "temuan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:35 --> Invalid file: "temuan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:43 --> Invalid file: "temuan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan/index', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(15): view('temuan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 09:49:56 --> Invalid file: "temuan/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temuan/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('temuan/create', [], true)
+ 3 APPPATH\Controllers\TemuanController.php(20): view('temuan/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+ERROR - 2023-07-05 10:00:20 --> mysqli_sql_exception: Column 'foto' cannot be null in D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `te...', 0)
+#1 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Dimas\KULIAH\CODING\PWL\FinalProject\app\Controllers\TemuanController.php(35): CodeIgniter\Model->insert(Array)
+#8 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\CodeIgniter.php(934): App\Controllers\TemuanController->store()
+#9 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+#10 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Dimas\KULIAH\CODING\PWL\FinalProject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Dimas\KULIAH\CODING\PWL\FinalProject\system\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH...')
+#13 {main}
+CRITICAL - 2023-07-05 10:00:20 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `temuan` (`nama_barang`, `kategori`, `tanggal_penemuan`, `tempat_penemuan`, `foto`) VALUES (\'asdas\', \'asdas\', \'2023-07-05\', \'sadasd\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temuan` (`nama_barang`, `kategori`, `tanggal_penemuan`, `tempat_penemuan`, `foto`) VALUES (\'asdas\', \'asdas\', \'2023-07-05\', \'sadasd\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temuan` (`nama_barang`, `kategori`, `tanggal_penemuan`, `tempat_penemuan`, `foto`) VALUES (\'asdas\', \'asdas\', \'2023-07-05\', \'sadasd\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temuan` (`nama_barang`, `kategori`, `tanggal_penemuan`, `tempat_penemuan`, `foto`) VALUES (:nama_barang:, :kategori:, :tanggal_penemuan:, :tempat_penemuan:, :foto:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\TemuanController.php(35): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:02:01 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\TemuanController.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\TemuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TemuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:02:05 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\TemuanController.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\TemuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TemuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:02:05 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\TemuanController.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\TemuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TemuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:02:07 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\TemuanController.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\TemuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TemuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 10:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 10:16:43 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\TemuanController.php on line 66.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Controllers\\TemuanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TemuanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TemuanController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TemuanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:17:01 --> "uploaded_file" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('uploaded_file')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('foto', 'foto', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\TemuanController.php(75): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->update('6')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:18:08 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::hasFile()
+in APPPATH\Controllers\TemuanController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->update('6')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:18:55 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::isUploaded()
+in APPPATH\Controllers\TemuanController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->update('6')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 10:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 10:21:30 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::hasError()
+in APPPATH\Controllers\TemuanController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->update('7')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 10:23:50 --> Cannot redeclare App\Controllers\TemuanController::update()
+in APPPATH\Controllers\TemuanController.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-05 10:23:51 --> Cannot redeclare App\Controllers\TemuanController::update()
+in APPPATH\Controllers\TemuanController.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-05 10:23:52 --> Cannot redeclare App\Controllers\TemuanController::update()
+in APPPATH\Controllers\TemuanController.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-05 10:25:55 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::hasError()
+in APPPATH\Controllers\TemuanController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->update('7')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 10:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 10:34:03 --> Invalid file: "kehilangan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kehilangan/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kehilangan/index', [], true)
+ 3 APPPATH\Controllers\KehilanganController.php(14): view('kehilangan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KehilanganController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KehilanganController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 10:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 10:55:26 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\kehilangan\edit.php on line 52.
+ 1 APPPATH\Views\dashboard\kehilangan\edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\kehilangan\\edit.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\kehilangan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/kehilangan/edit', [], true)
+ 5 APPPATH\Controllers\KehilanganController.php(62): view('dashboard/kehilangan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KehilanganController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KehilanganController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 10:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 10:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:01:08 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(9): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:01:09 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(9): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:01:10 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(9): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:01:10 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 6 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:01:11 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/kehilangan/index', [], true)
+ 6 APPPATH\Controllers\KehilanganController.php(14): view('dashboard/kehilangan/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KehilanganController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KehilanganController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:01:12 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(9): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:01:14 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 111.
+ 1 APPPATH\Views\dashboard\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(9): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:04:09 --> Invalid file: "beranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('beranda', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(24): view('beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:05:42 --> Invalid file: "beranda/beranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/beranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(24): view('beranda/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:05:43 --> Invalid file: "beranda/beranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/beranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(24): view('beranda/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:05:43 --> Invalid file: "beranda/beranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/beranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(24): view('beranda/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:05:44 --> Invalid file: "beranda/beranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/beranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(24): view('beranda/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->beranda()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:16:37 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:17:24 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:17:27 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:29:47 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 95.
+ 1 APPPATH\Views\dashboard\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:32:23 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 100.
+ 1 APPPATH\Views\dashboard\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/kehilangan/index', [], true)
+ 6 APPPATH\Controllers\KehilanganController.php(14): view('dashboard/kehilangan/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KehilanganController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KehilanganController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+CRITICAL - 2023-07-05 11:32:24 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 100.
+ 1 APPPATH\Views\dashboard\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/temuan/index', [], true)
+ 6 APPPATH\Controllers\TemuanController.php(15): view('dashboard/temuan/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TemuanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemuanController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:32:32 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\index.php on line 100.
+ 1 APPPATH\Views\dashboard\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 11:36:01 --> Undefined variable $temuan
+in APPPATH\Views\home.php on line 120.
+ 1 APPPATH\Views\home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\home.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 11:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 11:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 23:51:21 --> Invalid file: "beranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('beranda', [], true)
+ 3 APPPATH\Controllers\DashboardController.php(14): view('beranda')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 23:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 23:51:31 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 23:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 23:51:32 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 23:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-05 23:51:32 --> Undefined variable $temuan
+in APPPATH\Views\dashboard\beranda.php on line 24.
+ 1 APPPATH\Views\dashboard\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $temuan', 'D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\app\\Views\\dashboard\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/beranda', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(14): view('dashboard/beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Dimas\\KULIAH\\CODING\\PWL\\FinalProject\\public\\index.php')
+INFO - 2023-07-05 23:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-05 23:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
